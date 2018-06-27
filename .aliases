@@ -154,8 +154,8 @@ alias agi='sudo apt-get install'
 alias agu='sudo apt-get update'
 
 # applications
-alias chrome='google-chrome &>/dev/null &'
-alias aliases='vim ~/.bash_aliases'
+alias chrome='nohup google-chrome &>/dev/null &'
+alias idea='nohup idea &>/dev/null &'
 
 # directory
 alias me='cd $HOME'
