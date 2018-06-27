@@ -80,7 +80,10 @@ jscbin="/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources
 unset jscbin;
 
 # Trim new lines and copy to clipboard
-alias c="tr -d '\n' | pbcopy"
+#alias c="tr -d '\n' | pbcopy"
+
+# Clear the command screen
+alias c='clear'
 
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
@@ -159,3 +162,6 @@ alias me='cd $HOME'
 alias dl='cd $HOME/Downloads'
 alias work='cd $HOME/work'
 alias personal='cd $HOME/personal'
+
+# bootstrap
+alias bootstrap='source ~/personal/dotfiles/bootstrap.sh -f'
