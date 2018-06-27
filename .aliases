@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# bootstrap
+alias bootstrap='source ~/personal/dotfiles/bootstrap.sh -f'
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
@@ -9,10 +12,6 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
 alias g="git"
 
 # Detect which `ls` flavor is in use
@@ -163,5 +162,3 @@ alias dl='cd $HOME/Downloads'
 alias work='cd $HOME/work'
 alias personal='cd $HOME/personal'
 
-# bootstrap
-alias bootstrap='source ~/personal/dotfiles/bootstrap.sh -f'
