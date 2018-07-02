@@ -155,6 +155,7 @@ alias agu='sudo apt-get update'
 # applications
 alias chrome='nohup google-chrome &>/dev/null &'
 alias idea='nohup idea &>/dev/null &'
+alias insomnia='nohup insomnia &>/dev/null &'
 
 # directory
 alias me='cd $HOME'
