@@ -44,3 +44,7 @@ export GOBIN=$HOME/work/go/bin
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+
+# PIAB exports
+export PUPPETDEV=10.252.169.213 # Ip address of puppet dev host (openstack)
+export OPENSTACK_KEYFILE=~/.ssh/openstack-robert-wang.pem # PEM file used to SSH to puppet dev host

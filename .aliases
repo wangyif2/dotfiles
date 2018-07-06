@@ -163,3 +163,5 @@ alias dl='cd $HOME/Downloads'
 alias work='cd $HOME/work'
 alias personal='cd $HOME/personal'
 
+# ssh
+alias puppet-dev="ssh -i ${OPENSTACK_KEYFILE} centos@${PUPPETDEV}"
