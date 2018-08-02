@@ -165,3 +165,7 @@ alias personal='cd $HOME/personal'
 
 # ssh
 alias puppet-dev="ssh -i ${OPENSTACK_KEYFILE} centos@${PUPPETDEV}"
+
+bastion() {
+    ssh yifan.wang@ops0-bastion1-1-$1.ops.sfdc.net
+}
