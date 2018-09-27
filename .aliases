@@ -169,3 +169,7 @@ alias puppet-dev="ssh -i ${OPENSTACK_KEYFILE} centos@${PUPPETDEV}"
 bastion() {
     ssh yifan.wang@ops0-bastion1-1-$1.ops.sfdc.net
 }
+
+git_token() {
+cat ~/work/git.soma.salesforce.com/isd_internal_build/postinstall.sh | grep git_token
+}
