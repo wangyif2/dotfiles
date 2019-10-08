@@ -35,8 +35,8 @@ export GPG_TTY=$(tty);
 
 # GO lang path
 export GOROOT=/usr/lib/go
-export GOPATH=$HOME/work/go
-export GOBIN=$HOME/work/go/bin
+export GOPATH=$HOME/work/git.soma.salesforce.com/go
+export GOBIN=$HOME/work/git.soma.salesforce.com/go/bin
 export PATH=$PATH:/usr/lib/go/bin
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$GOBIN
