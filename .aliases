@@ -163,6 +163,8 @@ alias dl='cd $HOME/Downloads'
 alias work='cd $HOME/work'
 alias personal='cd $HOME/personal'
 
+alias k='kubectl'
+
 # ssh
 alias puppet-dev="ssh -i ${OPENSTACK_KEYFILE} centos@${PUPPETDEV}"
 alias work="cd ~/work/git.soma.salesforce.com"
