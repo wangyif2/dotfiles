@@ -163,7 +163,11 @@ alias dl='cd $HOME/Downloads'
 alias work='cd $HOME/work'
 alias personal='cd $HOME/personal'
 
+alias dot='cd $HOME/work/github.com/dotfiles'
+
 alias k='kubectl'
+alias tf='terraform'
+alias d='docker'
 
 # ssh
 alias puppet-dev="ssh -i ${OPENSTACK_KEYFILE} centos@${PUPPETDEV}"
